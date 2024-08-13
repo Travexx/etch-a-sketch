@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: rgb(37, 37, 37);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.etchBox {
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#etchContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    display: flex;
+}
+
+button:hover {
+    background-color: gray;
+    color: aliceblue;
+    outline: solid black 4px;
+}
